@@ -1,6 +1,24 @@
-# CarrelM_Project1
-Using Hive to process Wikipedia clickstream data
+# Carrel Morgan Project 1
+Scala-Hive application to answer interesting questions about large datasets, using Hive.
 
-This program is used to answer the following interesting question:
+## Example
+1. Which Wikipedia article received the most traffic during the month of January, 2020
 
-Which English Wikipedia page received the most traffic during the month of January, 2020. 
+## Technologies
+- YARN
+- HDFS
+- Scala
+- Hive
+- Git + GitHub
+
+## Dataset
+- https://dumps.wikimedia.org/other/clickstream/
+
+## Initializing the Hadoop-Hive docker
+1. cd ~
+2. cd docker-hive/
+3. docker-compose up -d
+
+### Executing Queries directly in Hive
+1. docker-compose exec hive-server bash
+2. {in hive} > hive
